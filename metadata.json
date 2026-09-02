@@ -1,0 +1,6 @@
+{
+  "name": "ESC/POS Emulator",
+  "description": "Thermal ESC/POS receipt printer emulator with live preview, TCP/USB debugging, and command inspector.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

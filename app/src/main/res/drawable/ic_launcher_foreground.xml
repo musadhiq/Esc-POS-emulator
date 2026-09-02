@@ -1,0 +1,78 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="0"
+        android:translateY="0">
+
+        <!-- Printer Body Shadow / Glow -->
+        <path
+            android:pathData="M 28,52 L 80,52 A 6,6 0 0 1 86,58 L 86,80 A 6,6 0 0 1 80,86 L 28,86 A 6,6 0 0 1 22,80 L 22,58 A 6,6 0 0 1 28,52 Z"
+            android:fillColor="#0B132B" />
+
+        <!-- Thermal Receipt feeding upwards -->
+        <path
+            android:pathData="M 32,24 L 76,24 L 76,56 L 32,56 Z"
+            android:fillColor="#F8FAFC" />
+
+        <!-- Printed Receipt Content: Header, Lines, Barcode -->
+        <path
+            android:pathData="M 40,29 L 68,29"
+            android:strokeWidth="2"
+            android:strokeColor="#0284C7"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M 36,34 L 72,34 M 36,38 L 62,38 M 36,42 L 72,42"
+            android:strokeWidth="1.2"
+            android:strokeColor="#64748B"
+            android:strokeLineCap="round" />
+
+        <!-- Mini Barcode on receipt -->
+        <path
+            android:pathData="M 38,47 L 38,52 M 41,47 L 41,52 M 43,47 L 43,52 M 46,47 L 46,52 M 49,47 L 49,52 M 51,47 L 51,52 M 54,47 L 54,52 M 58,47 L 58,52 M 62,47 L 62,52 M 65,47 L 65,52 M 68,47 L 68,52 M 70,47 L 70,52"
+            android:strokeWidth="1.2"
+            android:strokeColor="#1E293B" />
+
+        <!-- Printer Main Housing -->
+        <path
+            android:pathData="M 30,52 L 78,52 A 5,5 0 0 1 83,57 L 83,78 A 5,5 0 0 1 78,83 L 30,83 A 5,5 0 0 1 25,78 L 25,57 A 5,5 0 0 1 30,52 Z"
+            android:fillColor="#1E293B" />
+
+        <!-- Printer Paper Exit Slot -->
+        <path
+            android:pathData="M 30,55 L 78,55"
+            android:strokeWidth="3.5"
+            android:strokeColor="#0F172A"
+            android:strokeLineCap="round" />
+
+        <!-- Cyan Accent Bar & Status LED Indicator -->
+        <path
+            android:pathData="M 32,64 L 56,64"
+            android:strokeWidth="2.5"
+            android:strokeColor="#38BDF8"
+            android:strokeLineCap="round" />
+
+        <!-- Power / Ready Status LED (Green Glow) -->
+        <path
+            android:pathData="M 72,64 A 2.2,2.2 0 1 0 72.01,64"
+            android:strokeWidth="2.5"
+            android:strokeColor="#10B981"
+            android:strokeLineCap="round" />
+
+        <!-- Paper Feed Button -->
+        <path
+            android:pathData="M 77,73 A 1.8,1.8 0 1 0 77.01,73"
+            android:strokeWidth="2"
+            android:strokeColor="#64748B"
+            android:strokeLineCap="round" />
+            
+        <!-- ESC/POS Badge / USB Symbol -->
+        <path
+            android:pathData="M 32,73 L 64,73"
+            android:strokeWidth="1.5"
+            android:strokeColor="#475569"
+            android:strokeLineCap="round" />
+    </group>
+</vector>
